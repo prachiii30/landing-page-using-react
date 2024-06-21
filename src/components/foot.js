@@ -5,7 +5,7 @@ import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 
-const Footer = () => {
+const foot = () => {
   return (
     <div className="footer-wrapper">
       <div className="footer-section-one">
@@ -43,4 +43,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default foot;

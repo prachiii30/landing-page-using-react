@@ -1,20 +1,20 @@
 import "./App.css";
-import Home from "../Components/Home.js";
-import About from "../components/About.js";
-import Work from "../Components/Work.js";
-import Testimonial from "../components/Testimonial.js";
-import Contact from "../components/Contact.js";
-import Footer from "../components/Footer";
+import Home from "./components/Home.js";
+import aboutt from "./components/aboutt.js";
+import Work from "./components/reach.js";
+import Testim from "./components/foot.js";
+import reach from "./components/Testim.js";
+import foot from "./components/Work.js";
 
 function App() {
   return (
     <div className="App">
       <Home />
-      <About />
+      <aboutt />
       <Work />
-      <Testimonial />
-      <Contact />
-      <Footer />
+      <Testim />
+      <reach />
+      <foot />
     </div>
   );
 }

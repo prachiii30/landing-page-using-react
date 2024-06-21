@@ -1,8 +1,8 @@
 import React from "react";
-import ProfilePic from "../scomponents/assets/john-doe-image.png";
+import ProfilePic from "../components/assests/john-doe-image.png";
 import { AiFillStar } from "react-icons/ai";
 
-const Testimonial = () => {
+const Testim= () => {
   return (
     <div className="work-section-wrapper">
       <div className="work-section-top">
@@ -32,4 +32,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Testim;
